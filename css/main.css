@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b8ffbb;
+  background: #8f14ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1355,6 +1355,7 @@ pre .javascript .function {
   line-height: 1.8;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .post-toc .nav .nav-child {
   display: none;
@@ -2695,6 +2696,12 @@ blockquote {
   font-size: 0.8em;
   text-align: right;
   padding-right: 5px;
+}
+.site-state-item:not(:first-child) {
+  border-left: none;
+}
+.site-state-item:not(:first-child) {
+  border-left: none;
 }
 @media (prefers-color-scheme: dark) {
   :root {
