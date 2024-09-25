@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a3cf14;
+  background: #f70e62;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2703,7 +2703,15 @@ blockquote {
 .site-state-item:not(:first-child) {
   border-left: none;
 }
-@media (prefers-color-scheme: dark) {
+.post-meta-item-text {
+  display: none;
+}
+@media (max-width: 991px) {
+  .site-brand-container {
+    box-shadow: none;
+  }
+}
+@media (max-width: 991px) and (prefers-color-scheme: dark) {
   :root {
     --body-bg-color: #262a30;
   }
