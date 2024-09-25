@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #9ee5a8;
+  background: #866bff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2703,8 +2703,8 @@ blockquote {
 .site-state-item:not(:first-child) {
   border-left: none;
 }
-.post-meta-item-text {
-  display: none;
+img {
+  transition: opacity 0.5s;
 }
 @media (max-width: 991px) {
   .site-brand-container {
