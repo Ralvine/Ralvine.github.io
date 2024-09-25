@@ -3,11 +3,11 @@
   <title>望薮</title>
   
   <subtitle>𝑝𝑒𝑟 𝑨𝒔𝒑𝒆𝒓𝒂 𝑎𝑑 𝑨𝒔𝒕𝒓𝒂.</subtitle>
-  <link href="http://obtau.ralvines.top/atom.xml" rel="self"/>
+  <link href="http://ralvines.top/atom.xml" rel="self"/>
   
-  <link href="http://obtau.ralvines.top/"/>
+  <link href="http://ralvines.top/"/>
   <updated>2024-09-24T15:35:54.098Z</updated>
-  <id>http://obtau.ralvines.top/</id>
+  <id>http://ralvines.top/</id>
   
   <author>
     <name>Ralvine</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>华灯初上、春和景明与久违晴天</title>
-    <link href="http://obtau.ralvines.top/2024/03/08/sunnyday/"/>
-    <id>http://obtau.ralvines.top/2024/03/08/sunnyday/</id>
+    <link href="http://ralvines.top/2024/03/08/sunnyday/"/>
+    <id>http://ralvines.top/2024/03/08/sunnyday/</id>
     <published>2024-03-07T16:00:00.000Z</published>
     <updated>2024-09-24T15:35:54.098Z</updated>
     
@@ -31,17 +31,17 @@
     
     
     
-    <category term="旅途" scheme="http://obtau.ralvines.top/categories/%E6%97%85%E9%80%94/"/>
+    <category term="旅途" scheme="http://ralvines.top/categories/%E6%97%85%E9%80%94/"/>
     
     
-    <category term="杭州" scheme="http://obtau.ralvines.top/tags/%E6%9D%AD%E5%B7%9E/"/>
+    <category term="杭州" scheme="http://ralvines.top/tags/%E6%9D%AD%E5%B7%9E/"/>
     
   </entry>
   
   <entry>
     <title>火车开往破晓</title>
-    <link href="http://obtau.ralvines.top/2023/05/04/wuhan/"/>
-    <id>http://obtau.ralvines.top/2023/05/04/wuhan/</id>
+    <link href="http://ralvines.top/2023/05/04/wuhan/"/>
+    <id>http://ralvines.top/2023/05/04/wuhan/</id>
     <published>2023-05-03T16:00:00.000Z</published>
     <updated>2024-09-24T15:03:47.298Z</updated>
     
@@ -53,10 +53,10 @@
     
     
     
-    <category term="旅途" scheme="http://obtau.ralvines.top/categories/%E6%97%85%E9%80%94/"/>
+    <category term="旅途" scheme="http://ralvines.top/categories/%E6%97%85%E9%80%94/"/>
     
     
-    <category term="武汉" scheme="http://obtau.ralvines.top/tags/%E6%AD%A6%E6%B1%89/"/>
+    <category term="武汉" scheme="http://ralvines.top/tags/%E6%AD%A6%E6%B1%89/"/>
     
   </entry>
   

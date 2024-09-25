@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e21f73;
+  background: #9affff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2645,12 +2645,16 @@ blockquote {
 .site-subtitle {
   color: #000;
 }
+.content {
+  padding-top: 2rem;
+}
 .content-wrap {
   background: none;
+  padding-top: 2rem;
 }
 @media (min-width: 992px) {
   .site-meta {
-    padding: 80px 0;
+    padding: 100px 0;
   }
 }
 .menu .menu-item {
@@ -2680,8 +2684,13 @@ blockquote {
 .site-title:hover {
   color: #000;
 }
+.site-title,
+.site-subtitle {
+  text-shadow: 0 0 30px rgba(0,0,0,0.75);
+}
 .posts-expand .post-meta {
   text-align: left;
+  margin-bottom: 2rem;
 }
 .post-body .image-caption {
   font-weight: 500;
@@ -2710,6 +2719,13 @@ img {
   .site-brand-container {
     box-shadow: none;
   }
+}
+.post-eof {
+  margin: 3rem auto 2rem;
+}
+.site-nav-toggle .toggle .toggle-line,
+.site-nav-right .toggle .toggle-line {
+  background: #000;
 }
 @media (prefers-color-scheme: dark) {
   :root {
