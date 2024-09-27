@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b87842;
+  background: #60ff0a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2735,6 +2735,10 @@ img {
   }
   .site-title:hover {
     color: #fff;
+  }
+  .site-nav-toggle .toggle .toggle-line,
+  .site-nav-right .toggle .toggle-line {
+    background: #fff;
   }
 }
 .admonition {
