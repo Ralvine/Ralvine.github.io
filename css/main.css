@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #60ff0a;
+  background: #50d5b1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2723,6 +2723,9 @@ img {
 .site-nav-right .toggle .toggle-line {
   background: #000;
 }
+.site-nav-right .toggle {
+  color: #000;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --body-bg-color: #262a30;
@@ -2739,6 +2742,9 @@ img {
   .site-nav-toggle .toggle .toggle-line,
   .site-nav-right .toggle .toggle-line {
     background: #fff;
+  }
+  .site-nav-right .toggle {
+    color: #fff;
   }
 }
 .admonition {
