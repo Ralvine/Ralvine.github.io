@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #67d0e8;
+  background: #2a06ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2612,6 +2612,14 @@ ul.breadcrumb li + li:last-child {
 }
 :root {
   --body-bg-color: #fff;
+}
+#footnotelist {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+hr {
+  background-image: repeating-linear-gradient(0deg, #ddd, #ddd 1px, transparent 1px, transparent 8px);
+  margin: 20px 0;
 }
 table {
   width: 100%; /*表格宽度*/
