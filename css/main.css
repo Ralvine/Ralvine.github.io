@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #2a06ff;
+  background: #e045ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2790,9 +2790,6 @@ blockquote {
 }
 img {
   transition: opacity 0.5s;
-}
-img:hover {
-  opacity: 0.5;
 }
 .group-picture-column p {
   transition: opacity 0.5s;
