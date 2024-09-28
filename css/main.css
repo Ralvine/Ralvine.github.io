@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e045ff;
+  background: #4f1aa1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2623,11 +2623,17 @@ hr {
 }
 table {
   width: 100%; /*表格宽度*/
-  max-width: 65em; /*表格最大宽度，避免表格过宽*/
+  max-width: 105em; /*表格最大宽度，避免表格过宽*/
   border: 1px solid #dedede; /*表格外边框设置*/
+  border-radius: 10px;
   margin: 15px auto; /*外边距*/
   border-collapse: collapse; /*使用单一线条的边框*/
   empty-cells: show; /*单元格无内容依旧绘制边框*/
+}
+@media (max-width: 991px) {
+  table {
+    width: 130%; /*表格宽度*/
+  }
 }
 table th,
 table td {
