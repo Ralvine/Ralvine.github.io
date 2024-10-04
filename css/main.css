@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #82ffff;
+  background: #49adac;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2613,6 +2613,11 @@ ul.breadcrumb li + li:last-child {
 :root {
   --body-bg-color: #fff;
 }
+.footer-inner {
+  padding-left: 0;
+  border-top: 0.5px solid;
+  padding-top: 1rem;
+}
 #footnotelist {
   font-size: 0.85rem;
   opacity: 0.85;
@@ -2632,7 +2637,7 @@ table {
 }
 @media (max-width: 991px) {
   table {
-    width: 130%; /*表格宽度*/
+    width: 150%; /*表格宽度*/
   }
 }
 table th,
