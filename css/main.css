@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #49adac;
+  background: #8a4e55;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2621,6 +2621,7 @@ ul.breadcrumb li + li:last-child {
 #footnotelist {
   font-size: 0.85rem;
   opacity: 0.85;
+  word-break: break-all;
 }
 hr {
   background-image: repeating-linear-gradient(0deg, #ddd, #ddd 1px, transparent 1px, transparent 8px);
@@ -2715,8 +2716,8 @@ b,
 strong {
   font-weight: 600;
 }
-blockquote {
-  font-weight: 300;
+blockquote p {
+  font-weight: 400;
 }
 .site-brand-container {
   background: none;
