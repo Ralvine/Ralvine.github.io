@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4ffffb;
+  background: #4b5b57;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2613,6 +2613,31 @@ ul.breadcrumb li + li:last-child {
 :root {
   --body-bg-color: #fff;
 }
+.desc {
+  height: 270px;
+}
+.post-body .desc img {
+  border-radius: 15px;
+  display: block; /* 去除图片底部间距 */
+  width: 100%; /* 保证图片宽度与父元素一致 */
+}
+.desc p {
+  color: #fff;
+  text-shadow: 0 0 15px rgba(0,0,0,0.9);
+  font-size: 1rem;
+  font-weight: 500;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  margin: 0 10px;
+  padding: 1rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  mask-image: radial-gradient(circle, #000 90%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: radial-gradient(circle, #000 90%, rgba(0,0,0,0) 100%);
+  line-height: 1.25;
+}
 .footer-inner {
   padding-left: 0;
   border-top: 0.5px solid;
@@ -2768,7 +2793,8 @@ blockquote p {
   height: 250px;
   object-fit: cover;
   width: 100%;
-  border-radius: 15px;
+  display: block;
+  border-radius: 0;
 }
 .posts-expand .post-title {
   text-align: left;

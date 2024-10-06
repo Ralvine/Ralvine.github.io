@@ -14,6 +14,10 @@ NexT.utils = {
   wrapImageWithFancyBox: function() {
     document.querySelectorAll('.post-body :not(a) > img, .post-body > img').forEach(element => {
       var $image = $(element);
+      if ($(element).hasClass('nofancybox')) {  //是否有包含自己定義的nofancybox屬性，有就return true
+        $(element).css("cursor","default");    //將碰到圖片的鼠標從放大鏡變成default模式
+        return; //不進行下面的fancybox的配置
+      }
       var imageLink = $image.attr('data-src') || $image.attr('src');
       var $imageWrapLink = $image.wrap(`<a class="fancybox fancybox.image" href="${imageLink}" itemscope itemtype="http://schema.org/ImageObject" itemprop="url"></a>`).parent('a');
       if ($image.is('.post-gallery img')) {
