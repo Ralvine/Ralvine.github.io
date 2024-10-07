@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #0812ff;
+  background: #08ab3e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2616,6 +2616,12 @@ ul.breadcrumb li + li:last-child {
 .desc {
   height: 270px;
 }
+.post-eof {
+  background: #ccc;
+  height: 1px;
+  margin: 80px auto 60px;
+  width: 72%;
+}
 .post-body .desc img {
   border-radius: 15px;
   display: block; /* 去除图片底部间距 */
@@ -2802,6 +2808,10 @@ blockquote p {
 }
 .site-title:hover {
   color: #000;
+}
+.site-title {
+  font-weight: 200;
+  font-size: 2rem;
 }
 .posts-expand .post-meta {
   text-align: left;
